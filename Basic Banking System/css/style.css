@@ -1,0 +1,54 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	color: #000;
+}
+
+.m-container {
+	display: grid;
+	height: 80vh;
+	place-items: center;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #C1DEAE;
+}
+
+.m-container-item {
+	margin: 2em 0;
+}
+
+.title {
+	color: #139487;
+}
+
+.tagline {
+	font-size: 1.25em;
+	color: #139487;
+}
+
+button:hover, h1:hover{
+	transition: 0.5s;
+	transform: scale(1.1);
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color:white;
+	background-color:white;
+	letter-spacing: 0.5px;
+}
+footer p {
+	margin: 0;
+	font-size: 15px;
+}
+footer a {
+	color: white;
+}
+footer a:hover {
+	color: white;
+}
